@@ -3,3 +3,45 @@ body{
     border: 2px solid black;
     margin: 20px auto;
 }
+/*Header styles*/
+nav{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav .logo>img{
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+}
+/* nav .pages{
+    
+
+} */
+nav ol{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.mainheader{
+    text-align: center;
+    padding: 50px;
+}
+/*Header styles*/
